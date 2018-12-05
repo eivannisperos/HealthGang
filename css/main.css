@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+  font-size: 24px;
+}
+
+body {
+  margin: 0;
+}
+
+img {
+  width: 100%;
+}
+
+section {
+  width: 100%;
+}
+
+/*
+default containers
+*/
+
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.grid {
+  display: grid;
+}
+
+/*
+patient profile
+*/
+.patient-profile {
+  background-color: #F6F6F6;
+}
+
+.patient-header {
+  width: 100%;
+  height: 17vh;
+}
+
+.patient-img {
+  width: 147px;
+  height: 147px;
+  background-image: url("../assets/users/kodak.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 150%;
+  border-radius: 50%;
+}
+
+.patient-info {
+  
+}

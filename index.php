@@ -2,17 +2,17 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
     <script src="js/jquery.js"></script>
     <script src="js/page-handler.js"></script>
-    <link rel="stylesheet" href="/css/main.css">
     <title>Patient's Name</title>
   </head>
   <body>
     <section class="patient-profile">
-      <section class="patient-header">
-        <div class="patient-img">
-          <img src="assets/users/kodak.jpg" alt="patient's profile image">
-        </div>
+      <section class="patient-header flex">
+        <div class="patient-img"></div>
 
         <div class="patient-info grid">
           <ul>
