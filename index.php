@@ -4,11 +4,27 @@
     <meta charset="utf-8">
     <script src="js/jquery.js"></script>
     <script src="js/page-handler.js"></script>
-    <title></title>
+    <title>Dashboard</title>
   </head>
   <body>
-    <div class="template-canvas">
-      
-    </div>
+    <section class="user-header">
+
+    </section>
+
+    <section class="document">
+      <div class="alert">
+
+      </div>
+
+      <div class="document-filter">
+
+      </div>
+
+      <div class="document-loadout">
+        <div class="document-new-doc">
+          
+        </div>
+      </div>
+    </section>
   </body>
 </html>
