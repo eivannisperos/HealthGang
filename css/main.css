@@ -6,6 +6,7 @@
 
 body {
   margin: 0;
+  padding-bottom: 10em;
 }
 
 img {
@@ -14,6 +15,32 @@ img {
 
 section {
   width: 100%;
+}
+
+li {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+button, select, input {
+  background: linear-gradient(#ffffff,#ffffff) padding-box,
+  linear-gradient(to bottom, #24C3C3 0%, #27D29F 100%) border-box;
+  width: 263px;
+  height: 50px;
+  color: black;
+  border : 2px solid transparent;
+  border-radius: 300px;
+}
+
+select {
+  padding-left: 0.2em;
+}
+
+input {
+  padding-left: 0.5em;
+  width: 431px;
+  height: 41px;
 }
 
 /*
@@ -33,6 +60,15 @@ default containers
   display: grid;
 }
 
+.label {
+  color: #4B4B4B;
+  font-weight: lighter;
+}
+
+.default-padding {
+  padding: 0em 3em 0em 3em;
+}
+
 /*
 patient profile
 */
@@ -43,6 +79,7 @@ patient profile
 .patient-header {
   width: 100%;
   height: 17vh;
+  align-items: center;
 }
 
 .patient-img {
@@ -56,5 +93,121 @@ patient profile
 }
 
 .patient-info {
-  
+  width: 60%;
+}
+
+.patient-info-grid {
+  grid-template-columns: 20% 25% 25% 25%;
+  grid-template-rows: 35px 35px;
+  grid-auto-flow: row;
+}
+
+.patient-dashboard-show-control {
+  margin-left: auto;
+  height: 80%;
+  justify-content: space-around;
+}
+
+/*
+  alert notifaction
+*/
+
+.alert {
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  border: 2px solid #F7B919;
+  margin: 3em 0 3em 0;
+}
+
+.alert-icon {
+  width: 64px;
+  height: 64px;
+}
+
+.alert-close {
+  width: 24.21px;
+  height: 21.38px;
+}
+
+.alert-indicator {
+  align-items: center;
+  width: 12%;
+}
+
+.alert-indicator span {
+  font-weight: bold;
+  color: #F7B919;
+  margin-left: auto;
+}
+
+.alert-msg {
+  width: 70%;
+}
+
+/*
+patient documents
+*/
+
+.document-filter {
+  grid-template-columns: 32% 68%;
+  align-items: center;
+  margin-bottom: 2em;
+}
+
+.document-dropdowns {
+  align-items: center;
+  justify-content: space-around;
+}
+
+#date-select {
+  width: 156px;
+  height: 49px;
+}
+
+#category-select {
+  width: 194px;
+  height: 49px;
+}
+
+/*
+document loadouts
+*/
+
+/* .document-loadout {
+  grid-template-columns: auto auto auto;
+  grid-column-gap: auto;
+  grid-row-gap: 1em;
+} */
+
+.document-loadout {
+  width: 100%;
+  grid-template-columns: 30% 40% 30%;
+  justify-items: center;
+  grid-row-gap: 10%;
+}
+
+.doc {
+  width: 366.68px;
+  height: 222.06px;
+  background: linear-gradient(180deg, #24C3C3 0%, #27D29F 100%), #F6F6F6;
+}
+
+.doc-add-img {
+  width: 55.8px;
+  height: 55.8px;
+  margin-bottom: 1em;
+}
+
+.doc-title-container {
+  align-items: center;
+}
+
+.doc-title-container span {
+  color: white;
+}
+
+.document-new-doc {
+  align-items: center;
+  justify-content: center;
 }
